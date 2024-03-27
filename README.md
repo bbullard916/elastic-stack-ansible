@@ -24,7 +24,7 @@ Elastic Beats:
 ## Requirements
 
 ```
-To preserve bandwidth we download elasticsearch and kibana on our Ansible machine:
+To preserve bandwidth we download elasticsearch and kibana on our Ansible machine you can replace with whatever version you require:
 mkdir -p ~/elk_tar_path # <- you can customize this path by changing elasticsearch_local_tar_path variable
 curl  -o ~/elk_tar_path/kibana-8.3.3-linux-x86_64.tar.gz https://artifacts.elastic.co/downloads/kibana/kibana-8.3.3-linux-x86_64.tar.gz
 curl  -o ~/elk_tar_path/elk_tar_path/elasticsearch-8.3.3-linux-x86_64.tar.gz https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-8.3.3-linux-x86_64.tar.gz
