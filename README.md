@@ -40,14 +40,6 @@ You can refer to the README.md file in each role directory:
 
 you can also explore all roles variables [here](docs/ROLES_VARS.md)
 
-## Using this collection
-
-Install from GitHub
-
-```
-ansible-galaxy collection install git+https://github.com/garutilorenzo/ansible-collection-elk
-```
-
 ## Examples
 
 [How](examples/) to use this Ansible collection
@@ -62,6 +54,3 @@ vagrant up
 
 In the Vagrantfile you can inject your public ssh key directly in the authorized_keys of the vagrant user. You have to change the *CHANGE_ME* placeholder in the Vagrantfile. You can also adjust the number of the vm deployed by changing the NNODES variable (Default: 6)
 
-## Tutorial 
-
-Full tutorial available [here](https://garutilorenzo.github.io/ansible-collection-elk/)

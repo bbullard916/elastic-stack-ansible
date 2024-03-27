@@ -11,6 +11,7 @@ In all examples in this directory:
 | `elasticsearch_cluster`  | Elasticsearch cluster (3 master nodes, 3 data nodes)  |
 | `elk_cluster`  | Elasticsearch cluster (3 master nodes, 3 data nodes), 2 kibana instances, 2 logstash instances  |
 | `monitoring`  | Monitor some nodes with the elastic beats and setup the kibana dashboards  |
+| `custom-es-cluster`  | Elasticsearch cluster (3 master nodes, 3 data nodes), 2 kibana instances, 2 logstash instances with required pub and private keys for Vagrant
 
 you can explore all roles variables [here](docs/ROLES_VARS.md)
 
