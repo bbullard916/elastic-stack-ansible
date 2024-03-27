@@ -24,6 +24,14 @@ Elastic Beats:
 ## Requirements
 
 ```
+To preserve bandwidth we download elasticsearch and kibana on our Ansible machine:
+mkdir -p ~/elk_tar_path # <- you can customize this path by changing elasticsearch_local_tar_path variable
+curl  -o ~/elk_tar_path/kibana-8.3.3-linux-x86_64.tar.gz https://artifacts.elastic.co/downloads/kibana/kibana-8.3.3-linux-x86_64.tar.gz
+curl  -o ~/elk_tar_path/elk_tar_path/elasticsearch-8.3.3-linux-x86_64.tar.gz https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-8.3.3-linux-x86_64.tar.gz
+
+and we have to create the certificate directory, where elastic certificates will be stored:
+mkdir -p ~/very_secure_dir # <- you can customize this path by changing elasticsearch_local_certs_dir variable
+
 apt-get install python3 python3-pip
 pip3 install pipenv
 
