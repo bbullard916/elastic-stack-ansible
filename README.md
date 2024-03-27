@@ -23,10 +23,14 @@ Elastic Beats:
 
 ## Requirements
 
-Install ansible, ipaddr and netaddr:
-
 ```
+apt-get install python3 python3-pip
+pip3 install pipenv
+
+pipenv shell
 pip install -r requirements.txt
+
+Install ansible, ipaddr and netaddr:
 ```
 
 ## Roles documentation
