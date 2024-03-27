@@ -1,8 +1,3 @@
-[![GitHub issues](https://img.shields.io/github/issues/garutilorenzo/ansible-collection-elk)](https://github.com/garutilorenzo/ansible-collection-elk/issues)
-![GitHub](https://img.shields.io/github/license/garutilorenzo/ansible-collection-elk)
-[![GitHub forks](https://img.shields.io/github/forks/garutilorenzo/ansible-collection-elk)](https://github.com/garutilorenzo/ansible-collection-elk/network)
-[![GitHub stars](https://img.shields.io/github/stars/garutilorenzo/ansible-collection-elk)](https://github.com/garutilorenzo/ansible-collection-elk/stargazers)
-
 <p align="center">
   <img src="https://garutilorenzo.github.io/images/elk-logo.png?" alt="elk-logo"/>
 </p>
