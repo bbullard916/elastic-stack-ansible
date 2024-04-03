@@ -2,7 +2,7 @@
   <img src="https://garutilorenzo.github.io/images/elk-logo.png?" alt="elk-logo"/>
 </p>
 
-# Install and configure the ELK stack
+# Install and configure the ELK stack (Ubuntu Only)
 
 Install and configure the ELK stack:
 
@@ -22,7 +22,7 @@ Elastic Beats:
 To preserve bandwidth we download elasticsearch and kibana on our Ansible machine you can replace with whatever version you require:
 mkdir -p ~/elk_tar_path # <- you can customize this path by changing elasticsearch_local_tar_path variable
 curl  -o ~/elk_tar_path/kibana-8.3.3-linux-x86_64.tar.gz https://artifacts.elastic.co/downloads/kibana/kibana-8.3.3-linux-x86_64.tar.gz
-curl  -o ~/elk_tar_path/elk_tar_path/elasticsearch-8.3.3-linux-x86_64.tar.gz https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-8.3.3-linux-x86_64.tar.gz
+curl  -o ~/elk_tar_path/elk_tar_path/elasticsearch-<VERSION>-linux-x86_64.tar.gz https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-<VERSION>-linux-x86_64.tar.gz
 
 and we have to create the certificate directory, where elastic certificates will be stored:
 mkdir -p ~/very_secure_dir # <- you can customize this path by changing elasticsearch_local_certs_dir variable
