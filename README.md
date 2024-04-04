@@ -55,6 +55,8 @@ you can also explore all roles variables [here](docs/ROLES_VARS.md)
 
 To test this collection you can use [Vagrant](https://www.vagrantup.com/) and [Virtualbox](https://www.virtualbox.org/) to bring up a example infrastructure. Once you have downloaded this repo use Vagrant to start the virtual machines:
 
+You must generate a public private key to insert into the Vagrant file and make sure the private key is added to authorized_keys.
+
 ```
 vagrant up
 ```
